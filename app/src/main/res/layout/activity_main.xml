@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela de Cadastro"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/dar_red"
+        android:gravity="center"
+        android:layout_marginTop="120dp"/>
+
+    <EditText android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borda"
+        android:padding="15dp"
+        android:hint="Informe o seu nome"
+        android:layout_marginTop="50dp"/>
+
+    <EditText android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/borda"
+        android:layout_marginTop="50dp"
+        android:hint="Informe seu e-mail"/>
+
+    <EditText android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/borda"
+        android:layout_marginTop="50dp"
+        android:hint="Informe sua senha"/>
+
+    <Button android:id="@+id/btn_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Cadastrar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/dar_red"
+        app:cornerRadius="5dp"/>
+
+</LinearLayout>
